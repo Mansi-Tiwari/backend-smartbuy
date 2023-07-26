@@ -15,8 +15,8 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
-app.get("/welcome", (req, res) => {
-  res.send("Welcome to SmartBuy website.");
+app.get("/", (req, res) => {
+  res.send("Welcome to SmartBuy website.🎉");
 });
 
 const array = [];
