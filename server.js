@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
-app.get("/", (req, res) => {
+app.get("/welcome", (req, res) => {
   res.send("Welcome to SmartBuy website.");
 });
 
